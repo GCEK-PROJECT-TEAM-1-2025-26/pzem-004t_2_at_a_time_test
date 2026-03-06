@@ -1,6 +1,6 @@
 # PZEM-004T 
 2 PZEM-004T used where the 2 split coils are in series. Due to which the first pzem-004t show the power equal to the sum of the power outputs from both the loads and the second pzem-004t shows only power output of second load
-'''
+'''bash
 230vc----split_coil_1----|----load-----neutral
                        |
                        ---split_coil_2-----load-----neutral
