@@ -1,5 +1,5 @@
 # PZEM-004T 
-2 PZEM-004T used where the 2 split coils are in series. Due to which the first pzem-004t show the power equal to the sum of the power outputs from both the loads and the second pzem-004t shows only power output of second load
+2 PZEM-004T used where the 2 split coils are in parallel. Due to which the first pzem-004t show the power equal to the sum of the power outputs from both the loads and the second pzem-004t shows only power output of second load
 ```
 230vc----split_coil_1----|----load-----neutral
                          |
@@ -23,7 +23,7 @@ Monitoring multiple loads often requires a dedicated sensor per circuit. This pr
 The system architecture uses a strategic series-coil arrangement to validate data precision:
 * **Sensor 1 (Aggregate):** Positioned to measure the total combined current of both Load 1 and Load 2.
 * **Sensor 2 (Individual):** Positioned to measure only the current of the second load.
-* **Accuracy Verification:** This series configuration allows for a direct comparison of readings, enabling real-time assessment of sensor consistency and measurement accuracy across both modules.
+* **Accuracy Verification:** This parallel configuration allows for a direct comparison of readings, enabling real-time assessment of sensor consistency and measurement accuracy across both modules.
 
 
 ## SSR Logic & Automation
