@@ -3,7 +3,7 @@
 ```
 230vc----split_coil_1----|----load-----neutral
                          |
-                          ---split_coil_2-----load-----neutral
+                         ----split_coil_2-----load-----neutral
 
 ```
 # Solid State Relay (SSR-25DA)
